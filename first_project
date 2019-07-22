@@ -1,5 +1,27 @@
 def main():
-    print("hello world")
+    #print("hello world")
+    #variable =input("what is life")
+    #print(variable)
+    four()
+def two():
+    x=10
+    print(x)
 
+def three():
+    num = input("what is your number")
+    print(num)
+    if num > 10:
+        print("greater then 10")
+    if num < 10:
+        print("less than 10")
+    if num == 10:
+        print("equal with 10")
+    four()
+def four():
+    num = input("what is your number")
+    if num %2 == 0:
+        print("it is an even number")
+    if num %2 == 1:
+        print("it is an odd number")
 if __name__== "__main__":
     main()
