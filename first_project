@@ -2,7 +2,8 @@ def main():
     #print("hello world")
     #variable =input("what is life")
     #print(variable)
-    four()
+    five()
+
 def two():
     x=10
     print(x)
@@ -23,5 +24,23 @@ def four():
         print("it is an even number")
     if num %2 == 1:
         print("it is an odd number")
+def five():
+    mylist = [1,2,3,4,5]
+    num = input("what number you want")
+    if num == 1:
+        print mylist[0]
+        print ("one more")
+    if num == 2:
+        print mylist[1]
+    if num == 3:
+        print mylist[2]
+    if num == 4:
+        print mylist[3]
+    if num == 5:
+        print mylist[4]
+    if num > 5:
+        print("we don't have it pleas try again")
+        five()
 if __name__== "__main__":
     main()
+
