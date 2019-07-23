@@ -10,8 +10,8 @@ clock = pygame.time.clock()
 def main():
     while True:
         clock.tick(60)
-        screen fill(0,120,200)
+        screen.fill(color)
         pygame.display .flip()
-if name = "_main_":
+if __name__ == '__main__':
     main()
 
