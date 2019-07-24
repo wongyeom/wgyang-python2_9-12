@@ -29,7 +29,8 @@ def five():
     num = input("what number you want")
     if num == 1:
         print mylist[0]
-        print ("one more?")
+        print ("one more? yes=1,no=2")
+
     if num == 2:
         print mylist[1]
         print ("one more?")
@@ -45,8 +46,9 @@ def five():
     if num > 5:
         print("we don't have it pleas try again")
         five()
-    print("yes=0,no=1")
-    if num == 0:
+
+def function():
+
 
 if __name__== "__main__":
     main()
